@@ -1,0 +1,53 @@
+package com.java.oop;
+
+public class Main {
+    static void main() {
+        Product product = new Product();
+        product.id = 990;
+        product.name = "vivo Phone";
+        product.maxRetailPrice = 54300;
+        product.rating = 4.5f;
+        product.reviewCount = 43;
+        product.discountPercentage = 23;
+        product.isAvailable = true;
+        product.company = "vivo";
+        product.catagory = "phone";
+        System.out.println("Id : " + product.id );
+        System.out.println("name : " + product.name );
+        System.out.println("maxRetailPrice :"+ product.maxRetailPrice );
+        System.out.println("rating :"+ product.rating );
+        System.out.println("reviewCount :"+ product.reviewCount);
+        System.out.println("isAvailable :"+ product.reviewCount);
+        System.out.println("company :"+ product.company);
+        System.out.println("catagory :"+product.catagory);
+
+        Product product1 = new Product();
+        product1.id = 990;
+        product1.name = "vivo Phone";
+        product1.maxRetailPrice = 54300;
+        product1.rating = 4.5f;
+        product1.reviewCount = 43;
+        product1.discountPercentage = 23;
+        product1.isAvailable = true;
+        product1.company = "vivo";
+        product1.catagory = "phone";
+        System.out.println("Id : " + product1.id );
+        System.out.println("name : " + product1.name );
+        System.out.println("maxRetailPrice :"+ product1.maxRetailPrice );
+        System.out.println("rating :"+ product1.rating );
+        System.out.println("reviewCount :"+ product1.reviewCount);
+        System.out.println("isAvailable :"+ product1.reviewCount);
+        System.out.println("company :"+ product1.company);
+        System.out.println("catagory :"+product1.catagory);
+
+
+
+
+
+
+
+
+
+
+    }
+}
