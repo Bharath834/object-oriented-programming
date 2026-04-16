@@ -2,6 +2,7 @@ package com.java.oop;
 
 public class Main {
     static void main() {
+        Customer customer = new Customer();
         Product product = new Product();
         product.id = 990;
         product.name = "vivo Phone";
@@ -39,6 +40,25 @@ public class Main {
         System.out.println("isAvailable :"+ product1.reviewCount);
         System.out.println("company :"+ product1.company);
         System.out.println("catagory :"+product1.catagory);
+
+
+        //customer
+
+        customer.id = 111;
+        customer.name = "bharath";
+        customer.number = 9012;
+        customer.email =" bhaarath9014@gmail.com";
+        customer.age = 24;
+        customer.gender = "male";
+        customer.address = "kurnool";
+        System.out.println("id:"+ customer.id);
+        System.out.println("name: "+ customer.number);
+        System.out.println("email:"+customer.email);
+        System.out.println("age:"+customer.age);
+        System.out.println("gender:"+customer.gender);
+        System.out.println("address:"+customer.address);
+
+
 
 
 
